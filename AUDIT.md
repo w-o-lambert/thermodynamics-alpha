@@ -1,4 +1,4 @@
-# Reduced repository audit
+# Repository audit
 
 ## Scope
 
@@ -17,7 +17,7 @@ Shared van der Waals and thermodynamic
 foundations were retained even where a historical name or identity refers to
 an expansion of a van der Waals expression.
 
-## Retained model coverage
+## Model coverage
 
 | Model family | Free energy / equation of state | Thermodynamic consequences | Provenance status |
 |---|---|---|---|
