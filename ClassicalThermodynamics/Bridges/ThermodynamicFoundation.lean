@@ -1,0 +1,4 @@
+import ClassicalThermodynamics.Bridges.ThermodynamicFoundation.VanDerWaalsProvenance
+import ClassicalThermodynamics.Bridges.ThermodynamicFoundation.VanDerWaalsEquilibrium
+import ClassicalThermodynamics.Bridges.ThermodynamicFoundation.VanDerWaalsStability
+import ClassicalThermodynamics.Bridges.ThermodynamicFoundation.VanDerWaalsResponse

@@ -1,0 +1,6 @@
+import ClassicalThermodynamics.Thermodynamics.Relations.GibbsHelmholtz
+import ClassicalThermodynamics.Thermodynamics.Relations.Clapeyron
+import ClassicalThermodynamics.Thermodynamics.Relations.Kirchhoff
+import ClassicalThermodynamics.Thermodynamics.Relations.VanTHoff
+import ClassicalThermodynamics.Thermodynamics.Relations.JouleThomson
+import ClassicalThermodynamics.Thermodynamics.Relations.LeChatelier

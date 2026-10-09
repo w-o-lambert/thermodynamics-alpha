@@ -1,0 +1,30 @@
+name: Lean 4.34 CI
+
+on:
+  push:
+    branches: [lean-4.34]
+  pull_request:
+    branches: [lean-4.34]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: lean-4.34-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: leanprover/lean-action@v1
+        with:
+          use-mathlib-cache: true
+          use-github-cache: false
+          build: true
+      - name: Check documentation consistency
+        shell: pwsh
+        run: ./scripts/check_documentation.ps1
